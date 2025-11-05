@@ -1,0 +1,47 @@
+
+li {
+    text-align: left;
+}
+
+main {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.description {
+    width: 55%;
+    margin-left: 60px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.interests {
+    display: flex;
+    align-items: flex-start; /*aligns text and images*/
+    justify-content: space-between; /*text left and images right*/
+    gap: 40px;
+    padding: 40px 60px;
+    text-align: left;
+}
+
+.text {
+    width: 55%;
+    text-align: justify;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.images {
+    max-width:50%;
+    display: flex;
+    flex-direction: auto;
+    gap: 20px;
+}
+
+.images img {
+    width: 100%;
+    height:auto;
+    border-radius: 8px;
+    object-fit: cover;
+    padding-bottom: 5px;
+}

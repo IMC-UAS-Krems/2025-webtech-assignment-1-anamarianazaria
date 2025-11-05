@@ -1,0 +1,34 @@
+main {
+    padding-top: 100px;
+    text-align: center;
+    font-size: x-large
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.photo img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;   
+}
+
+.photo p {
+    margin-top: 8px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}

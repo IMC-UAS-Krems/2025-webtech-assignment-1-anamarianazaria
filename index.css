@@ -1,0 +1,26 @@
+main {
+    padding-top: 100px;
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /*allows wrapping on smaller screens*/
+    margin-top: 40px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 270px;
+    object-fit: cover; /*crops the images as sizes differ*/
+    padding-bottom: 5px;
+}

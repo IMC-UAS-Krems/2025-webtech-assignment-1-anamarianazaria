@@ -1,0 +1,39 @@
+/* resets all browsers spacing */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: black;
+    padding: 15px 0px;
+    position: fixed; /*stays at the top always*/
+    width: 100%;
+    top: 0;
+}
+
+.links a {
+    display: flex;
+    color: white;
+    font-size: large;
+    padding: 15px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color:bisque;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    position: static; /*positioned normally in the page flow*/
+}
