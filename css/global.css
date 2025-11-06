@@ -1,7 +1,8 @@
-/* resets all browsers spacing */
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* resets browsers spacing */
+    padding: 0; /* resets browsers spacing */
+    overflow-x: hidden; /*prevents horizontal gaps*/
+    background-color: #f2ebe2;
 }
 
 nav {
@@ -9,7 +10,7 @@ nav {
     justify-content:center ;
     align-items: center;
     background-color: black;
-    padding: 15px 0px;
+    padding: 10px 0px;
     position: fixed; /*stays at the top always*/
     width: 100%;
     top: 0;
